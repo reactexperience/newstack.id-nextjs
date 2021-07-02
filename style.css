@@ -1,0 +1,172 @@
+body{
+    font-family: 'Khwan Sans', sans-serif;
+    background-color: #fcfdff;
+}
+
+.pop-reg{
+    font-family: 'Poppins', sans-serif;
+}
+
+.pop-sb{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.pop-eb{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.mregular{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mmedium{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.msemibold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn-primary{
+    background-color: #4735E1 !important;
+}
+
+.text-primary{
+    color: #4735E1 !important;
+}
+
+.darkmode--activated p, .darkmode--activated li {
+    color: #000;
+  }
+  
+  .button {
+    isolation: isolate;
+  }
+  
+  .darkmode--activated .logo {
+    mix-blend-mode: difference;
+  }
+
+
+  /* TV */
+
+  .jumbotron {
+       background-image: url(/img/rokok1.JPG);
+       background-size: cover;
+       background-color: white;
+   
+     text-align: center;
+     height: 340px;
+   }
+
+   .jumbotron .display-4{
+    color: white;
+    margin-top: 50px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 32px;
+  }
+
+  .jumbotron .lead{
+    color: rgb(231, 231, 231);
+    margin-top: 10px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+  }
+
+  .card-actside{
+    background-image: url(/img/6.jpg);
+  }
+  .card-hot{
+    background-image: url(/img/6.jpg);
+  }
+  .card-musikkita{
+    background-image: url(/img/6.jpg);
+  }
+  .card-pengadilan{
+    background-image: url(/img/6.jpg);
+  }
+
+  .col-half-offset{
+    margin-left:4.166666667%
+}
+
+/* NEWS */
+  a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .penjelasan-berita{
+    font-size: .875em;
+  }
+
+  /* .related h3 {
+    font-size: 21px;
+}
+
+.related hr {
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -10px;
+    border: 2px solid #039be5;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+} */
+
+/* NEWS - CLOSE */
+
+/* DESKTOP */
+@media (min-width: 992px) {
+    /* .karosel{
+        padding-left: 60px; 
+        padding-right: 60px;
+    } */
+    .jumbotron {
+      background-image: url(/img/rokok.JPG);
+      background-size: 100%;
+      background-size: cover;
+      background-color: white;
+  
+    text-align: center;
+    height: 340px;
+  }
+
+  .kategori{
+    font-size: 16px !important;
+  }
+
+  .icon-katalog, .icon-news, .icon-music, .icon-radio, .icon-tv, .icon-partnership{
+    width: 75px;
+    height: 75px;
+  }
+}
+
